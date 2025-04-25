@@ -1,0 +1,4 @@
+two types of events are there 
+
+1->system events ->C++ core ,start reading a file, complete writing data sent etc.
+2->custom events->javascript event emmiters
