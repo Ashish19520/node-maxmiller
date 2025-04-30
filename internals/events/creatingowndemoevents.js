@@ -27,4 +27,3 @@ emitr.on('greet', () => {
 
 emitr.emit('greet');
 
-console.log(em)

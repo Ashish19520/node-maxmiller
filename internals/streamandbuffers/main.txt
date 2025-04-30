@@ -1,0 +1,9 @@
+chunk-> a piece of data that sends in a stream
+stream is a continous flowing of data that we can process
+
+buffer -> buffer is a memory in which we can grab a certaing amount of limited data that come in strems and we are processing it
+
+
+Pipe -> through pipe we can connect two strams by writing to one stream what is being read from another  
+
+in another words we pipe a readable stream to a writable steam
