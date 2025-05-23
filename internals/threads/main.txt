@@ -1,0 +1,25 @@
+threads are a set of instrunction we gave to process to work on we can have multiple threadr
+runnning in a process
+
+multhithread means more thread should process at once
+
+
+node program
+   |
+---------
+one thread
+    |
+event loop
+
+
+node js is single threaded 
+
+it a event loop start
+
+the libuv library create a thread pooll inside which it runs four threads that do the computatoin tasks outside the eventloop
+
+we can increase or decrease thread pool size by using by default they are 4 and we can up them to 128
+pocess.env.UV_THREADPOOL_SIZE=5;
+
+all networking worksare done by os processes
+while some usethreads  of libuvlibrabry
